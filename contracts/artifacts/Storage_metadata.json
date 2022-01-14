@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve value in a variable",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Storage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x796462db03349a0a4f5c8a260bed2a8047140dd5a6b861703fab4bc611d86048",
+			"urls": [
+				"bzz-raw://4511d9c65917e2e3e5789b572504c5a373cd46e3cd2ddf4ad584b29986f099c5",
+				"dweb:/ipfs/QmQvxBjR8RLNTYK8Dqurkb31Pwq4PVTGUjKTU61i5ZUkF3"
+			]
+		}
+	},
+	"version": 1
+}
