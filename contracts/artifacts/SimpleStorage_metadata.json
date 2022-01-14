@@ -117,10 +117,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xe3c11f0b98013bb49b40c6fa16f50882dc0e847be3de1861d07f75f300a04941",
+			"keccak256": "0xcc5950b2cd0dec12b572d263eb9db9f730f19f584e462f3cd996f2a0c27cfca7",
 			"urls": [
-				"bzz-raw://8f0e6c60aa25ac4ad82b66bbd85f2a5510a609648f68a022160995648543a253",
-				"dweb:/ipfs/QmfT9NJC8tm86atENzErFjpxyrrpJ8uePCfE4PXEAtChsH"
+				"bzz-raw://7f9571c5ca64839027a5c7e4dc0aa76e784bc2d994405c8575b78742221984e5",
+				"dweb:/ipfs/QmfEYXusLAnky8aU64mcGcgR4Y2ZBaZgPrFyCghfbwWUZy"
 			]
 		}
 	},
